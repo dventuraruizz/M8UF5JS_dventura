@@ -1,0 +1,9 @@
+label{
+    display: block;
+    padding: 15px;
+}
+div{
+    justify-content: center;
+    align-content: center;
+    
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1></h1>
+        <button onclick="boto1()">Enviar</button>
+        <button onclick="boto2()">Enviarr</button>
+        <p id="primer"></p>
+        <p id="segon"></p>
+        <p onclick="finestra()">Fes click aquí</p>
+        <h1 onclick="sumar(3,7)">sumar</h1>
+
+        <script>
+            function boto1(){
+                document.getElementById("primer").innerHTML="Hola"
+            }
+            function boto2(){
+                document.getElementById("segon").innerHTML="Hola"
+            }
+            function finestra(){
+                alert('fes click aqui');
+            }
+            function sumar(x,y){
+                alert(x + y);
+            }
+        </script>
+    </body>
+</html>

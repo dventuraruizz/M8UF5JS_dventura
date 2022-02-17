@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/styles.css">
+        <title>Usuari password</title>
+    </head>
+    <body>
+        <div>
+            <label for="">Nom: <input type="text" name="" id="usuari"></label>
+            <label for="">Contrasenya: <input type="password" id="cont_1"></label>
+            <label for="">Repeteix contrasenya: <input type="password" id="cont_2"></label>
+            <button onclick="validar()">Comprovar</button>
+            <label for="">Nom: <input type="text" name="" id="usuari_2"></label>
+            <label for="">Cognom: <input type="text" name="" id="cognom"></label>
+            <button onclick="guardar()">Guardar dades</button>
+            <button onclick="recuperar()">Recuperar dades</button>
+            <button onclick="esborrar()">Esborrar dades</button>
+        </div>
+        <script src="JS/cookies.js"></script>
+    </body>
+</html>

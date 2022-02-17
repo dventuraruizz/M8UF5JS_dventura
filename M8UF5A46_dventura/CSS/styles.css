@@ -1,0 +1,28 @@
+body{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+table{
+    justify-content: center;
+    display: flex;
+    width: 400px;
+    height: 430px;
+    border: 1px solid rgb(32, 3, 160);
+    border-radius: 30px;
+    align-items: center;
+    background-color: rgb(140, 240, 215);
+}
+td{
+    text-align: center;
+    padding: 5px;
+}
+button{
+    width: 60px;
+}
+#bar{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+}
